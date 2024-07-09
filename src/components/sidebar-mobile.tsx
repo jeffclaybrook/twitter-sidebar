@@ -2,14 +2,14 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { LogOut, Menu, MoreHorizontal, Settings, X } from "lucide-react"
+import { LogOut, Menu, MoreHorizontal, Settings } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Drawer, DrawerContent, DrawerTrigger } from "./ui/drawer"
 import { Button } from "./ui/button"
 import { Separator } from "./ui/separator"
-import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet"
+import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet"
 import { SidebarButtonSheet as SidebarButton } from "./sidebar-button"
-import { SidebarItems } from "@/types"
+import { SidebarItems } from "../../types"
 
 interface SidebarMobileProps {
  sidebarItems: SidebarItems

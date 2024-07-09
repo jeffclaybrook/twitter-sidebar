@@ -8,7 +8,7 @@ import { Button } from "./ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover"
 import { SidebarButton } from "./sidebar-button"
-import { SidebarItems } from "@/types"
+import { SidebarItems } from "../../types"
 
 interface SidebarDesktopProps {
  sidebarItems: SidebarItems

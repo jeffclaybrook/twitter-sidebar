@@ -2,7 +2,7 @@
 
 import { Bell, Bookmark, Home, List, Mail, MoreHorizontal, User, Users } from "lucide-react"
 import { useMediaQuery } from "usehooks-ts"
-import { SidebarItems } from "@/types"
+import { SidebarItems } from "../../types"
 import { SidebarButton } from "./sidebar-button"
 import SidebarDesktop from "./sidebar-desktop"
 import SidebarMobile from "./sidebar-mobile"
